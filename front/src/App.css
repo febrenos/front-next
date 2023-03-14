@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: #383150;/*purple*/
+  color: #ffffffd7;
+  font-family: 'Lucida Sans', system-ui, Courier, monospace;
+  text-transform: uppercase;
+  padding: 1.5vh;
+}
+.content{
+  /* transition: 1s; */
+  /* padding-left: 200px; */
+}
