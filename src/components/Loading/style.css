@@ -1,0 +1,37 @@
+
+
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #383150;
+    opacity: .8;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    animation: fade-out 1.8s infinite ease-in-out 2s;
+    
+}
+.load p {
+    font-weight: 500;
+    color: #1CA9C2;
+    letter-spacing: 5px;
+    animation: spacing 2s ease-in-out, fade-in 1.8s infinite ease-in-out 2s;
+}
+
+@keyframes spacing {
+    0%{
+        letter-spacing: 15px;
+    }
+}
+
+@keyframes fade-in{
+    50%{
+        opacity: .3;
+    }
+}
+@keyframes fade-out{
+    50%{
+        opacity: .9;
+    }
+}

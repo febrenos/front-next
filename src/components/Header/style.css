@@ -1,0 +1,82 @@
+ul{
+    position: fixed;
+    height: 370px;
+    transition: .5s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #403a60;
+    /* padding: 11px 20px; */
+    border-radius: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+/* li{
+    padding: 4px;
+} */
+li:hover{
+    background-color: #312c4d70;
+    border-radius: 5px;
+    /* #312c4db6 */
+}
+.menuOpen{
+    width: 180px;
+    /* width: 200px; */
+    /* padding-left: 15px; */
+}
+.menuClose{
+    width: 43px;
+    /* padding-left: 0; */
+}
+#iMenuOpen{
+    transition: .5s;
+    transform: rotate(180deg);
+}
+#iMenuClose{
+    transition: .5s;
+    transform: rotate(0deg);
+}
+
+.addText{
+    display: block;
+}
+.rmText{
+    display: none;
+}
+
+.icon{
+    display: flex;
+    min-width: 33px;
+    justify-content: center;
+}
+li{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    padding: 4px 0;
+}
+li svg{
+    /* padding: 0 11px; */
+    /* margin: 0 15px 0 0; */
+}
+a{
+    margin-left: 15px;
+}
+/* div{
+    height: 100%;
+} */
+.backgroundI{
+    /* background: linear-gradient(90deg, rgb(12 137 159 / 25%), rgb(12 137 159 / 15%), transparent);
+
+    background: linear-gradient(90deg, rgb(12 137 159 / 25%), rgb(12 137 159 / 15%), transparent);
+    box-shadow: inset 7px 0 9px -8px rgb(12 137 159); */
+
+    display: flex;
+    align-items: center;
+    border-left: 2px solid rgb(12 137 159);
+    height: 18px;
+}
